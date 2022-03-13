@@ -18,6 +18,14 @@ body {
     text-align: center;
 }
 
+h2, h4 {
+    margin: 10px auto;
+}
+
+h4 {
+    font-size: 80%;
+}
+
 #heading {
     position: fixed;
     display: flex;
@@ -50,6 +58,9 @@ body {
     padding-right: 20px;
 }
 
+section {
+    margin: 69px auto 20px;
+}
 
 /* mission section */
 #container {
@@ -60,7 +71,6 @@ body {
 }
 
 .mission {
-    margin-top: 69px;
     height: 700px;
     min-width: 100%;
     background: center url(https://raw.githubusercontent.com/maddc0de/tea-cozy/main/resources/img-mission-background.webp);
@@ -77,6 +87,22 @@ body {
     background-color: black;
 }
 
-.mission-content h2, .mission-content h4 {
-    margin: 5px auto;
+
+/* tea-of-the-month section */
+
+.tea-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+figure img {
+    max-height: 200px;
+    max-width: 300px;
+}
+
+figure {
+    margin: 10px;
 }
