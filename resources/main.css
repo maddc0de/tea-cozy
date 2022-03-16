@@ -109,11 +109,8 @@ figure {
     margin: 10px;
 }
 
-/* location section styling */
-.location h2 {
-    padding: 0;
-}
 
+/* location section styling */
 .location {
     background: url(https://raw.githubusercontent.com/maddc0de/tea-cozy/main/resources/img-locations-background.webp);
     width: 100%;
